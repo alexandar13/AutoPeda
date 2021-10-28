@@ -1,0 +1,47 @@
+body > #root > div > .kontejner
+{
+    display: flex;
+    flex-direction: column;
+}
+
+body > #root > div > .kontejner-column >.container-fluid{
+    height: 100hv;
+    width: calc(100% - 250px);
+    padding: 0;
+    margin-right: 0;
+    margin-left: 250px;
+} 
+
+body > #root > div > .kontejner-column >.container-fluid > .kategorije{
+    position: sticky;
+    top:56px;
+    height: 40px;
+    background-color: rgb(185, 88, 88);
+    display: flex;
+} 
+
+body > #root > div > .kontejner-column > .navbar-cover{
+    height: 56px;
+    width: 100%;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+} 
+
+body > #root > div > .kontejner-column > .sidebar  {
+    position:fixed;
+    width: 250px;
+    height: 100%;
+    background-color:rgb(252, 152, 169);
+} 
+
+
+body > #root
+{
+    height: 100hv;
+    background-color: blue;
+}
+
+@media only screen and (max-width:1000px) {
+
+}

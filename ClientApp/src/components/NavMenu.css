@@ -1,0 +1,12 @@
+.navbar
+{
+    position:fixed;
+    top: 0;
+    width:100%;
+}
+
+.pretraga
+{
+   display: flex;
+   justify-content: center;
+}

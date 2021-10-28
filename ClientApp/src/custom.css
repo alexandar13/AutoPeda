@@ -1,0 +1,24 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.login-background {
+  /* background-image: url("./Resources/unnamed.jpg"); */
+  /* background-image: url("https://www.expresspartsinc.com/images/productsSlides/1.jpg"); */
+  /* background-color: #cccccc; */
+  height: 100%;
+  width: 100%;
+ }
+
+ 

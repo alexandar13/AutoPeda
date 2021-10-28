@@ -1,0 +1,36 @@
+.odaberi
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5ch;
+    
+}
+
+.odaberi-item
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.select
+{
+    margin: 3%;
+    width: 80%;
+}
+
+.container
+{
+    display: flex;
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
+.dugme
+{
+    width: 80%;
+    margin:3%;
+}
